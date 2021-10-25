@@ -1,0 +1,35 @@
+
+%: SECTION - LU Decomposition CODE
+
+\section*{Appendix - Code}
+
+\begin{lstlisting}
+for(int i = 0; i < dim - 1; i++){
+	for(int k = i+1; k  < dim; k++ ){
+		for(int m =  i+1; m < dim; m++){
+			if(upper[i][i] == 0 && upper[m][i] != 0 ){
+				'THERE IS NO LU FACTORIZATION'
+            }
+        }
+		if(upper[i][i] != 0 && upper[k][i] != 0){
+	        multiplier =upper[i][i]/upper[k][i];
+	        lower[k][i] = multiplier;
+        }else{
+	        if(upper[i][i] == 0 && upper[k][i] == 0){
+		        INFINITELY MANY LU FACTORIZATIONS 
+		        multiplier = INPUT FROM USER;
+		        lower[k][i] = multiplier;
+            }
+        }
+    for(int j = 0; j < dim; j++){
+        row[j] = upper[i][j]*multiplier;
+    }
+    for(int r = 0; r < dim; r++){
+        upper[k][r] = upper[k][r] - row[r];
+    }
+}
+Display Lower And Upper
+(Perform Matrix Multiplication on L and U)
+Display L and U
+}
+\end{lstlisting}

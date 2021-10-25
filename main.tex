@@ -1,0 +1,97 @@
+\def\pagenum{1}
+\def\vol{1}
+\def\issue{1}
+\def\thetitle{\uppercase{Title of the work}} 
+
+
+% ----------------------------- %
+\input{configs}
+\input{coding}
+% ----------------------------- &
+
+
+\usepackage{authblk}
+\renewcommand\Authands{ and }
+
+
+
+\def\authorone{\authorfont{Homer Simpson}}
+\def\authortwo{\authorfont{Donald Knuth}}
+\def\institution{\subauthorfont{Department of Mathematics, Great State University}}
+
+
+% ----------------------------- %
+%
+\begin{document}
+%
+% ----------------------------- %
+
+\interfootnotelinepenalty=100000
+
+
+% ----------------------------- %
+%  Header: Title, author
+% ----------------------------- %
+%\title{\TitleFont{\uppercase{\thetitle}}}%
+%\vspace{-25mm}
+
+%\author{
+%{ \authorone \\ Great State University}
+%\\
+%{ \authortwo }
+%}
+
+
+\title{\TitleFont{\uppercase{More than one Author with different Affiliations}}}
+\author[1]{\authorone}
+\author[2]{\authortwo}
+%\author[1]{Author C}
+%\author[2]{Author D}
+%\author[2]{Author E}
+\affil[1]{\institution}
+\affil[2]{School of Typesetting and Print, \LaTeX\ University}
+
+
+\vspace{-1mm}
+\date{}                                                 
+\maketitle                                              
+
+
+
+% ----------------------------- %
+% abstract
+% ----------------------------- %
+
+\input{abstract}
+\thispagestyle{fancy}
+
+
+% ----------------------------- %
+% Sections
+% ----------------------------- %
+\input{body}
+
+
+% ----------------------------- %
+% References:  BibTeX
+% ----------------------------- %
+\bibliography{refs.bib}
+\bibliographystyle{apalike}
+
+
+% ----------------------------- %
+% Biography
+% ----------------------------- %
+\input{bio.tex}
+
+
+
+% ----------------------------- %
+% Appendix: If needed
+% ----------------------------- %
+\newpage
+\input{app.tex}
+
+
+
+\end{document} 
