@@ -1,1 +1,1 @@
-# nagj
+# North American GeoGebra Journal Template
