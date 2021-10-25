@@ -1,18 +1,21 @@
 \section{Introduction}
-Many websites \citep{iotools2021, codesansar2021} provide tools to determine an LU  decomposition of a matrix; however, none of them can decompose \emph{all} matrices. 
+Many websites \citep{codesansar2021} provide tools to determine an LU  decomposition of a matrix; however, none of them can decompose \emph{all} matrices. 
 Using code, we developed a GeoGebra applet that can decompose square matrices for those that can be factored and decompose ``nearby" matrices without an LU decomposition using perturbation. In this paper, we first present conditions for a  matrix to have a unique LU decomposition. Several examples are included to illustrate this theorem.  Next, we state and prove special cases for matrices with infinitely many and no LU factorizations.  \\
 
 
  
 %: SECTION - LU DECOMPOSITION
-\section{LU  Decomposition}\label{sec:lu}
-For $A \in M_n$, the factorization $A = LU$, where $L$ is unit lower triangular and $U$ is upper triangular,  is called the \textit{LU decomposition}, or \textit{LU factorization}.  We can use such a factorization, when it exists, to solve the system $A {\bf x} = {\bf b}$ by first solving for the vector $\bf{y}$ in $L {\bf y} = {\bf b}$ 
+\section{Mathematics}\label{sec:lu}
+Here is some mathematics.  For $A \in M_n$, the factorization $A = LU$, where $L$ is unit lower triangular and $U$ is upper triangular,  is called the \textit{LU decomposition}, or \textit{LU factorization}.  We can use such a factorization, when it exists, to solve the system $A {\bf x} = {\bf b}$ by first solving for the vector $\bf{y}$ in $L {\bf y} = {\bf b}$ 
 and then solving 
 $
 U {\bf x} = {\bf y}
 $. 
-However, not every $n \times n$ matrix $A$ has an LU decomposition.  The following theorem provides conditions for the existence and uniqueness of an LU decomposition of a $n \times n$ matrix.  A proof can be found in \citet[p. 160]{johnson1985matrix}.
+However, not every $n \times n$ matrix $A$ has an LU decomposition.  The following theorem provides conditions for the existence and uniqueness of an LU decomposition of a $n \times n$ matrix.  A proof can be found in \citet[p. 160]{johnson1985matrix}.  An equation is given by \cite{strang1993introduction}, 
 
+\begin{equation}\label{eqn:quad}
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\end{equation}
   
 %: EXAMPLE 1
 \begin{example}\normalfont
@@ -191,7 +194,7 @@ Let  $\{1,2,3\}$ and $\{2,1,3\}$ be two lists of integers.  Then, to check if th
   
  \begin{figure}[h!] %  figure placement
     \centering
-    \includegraphics[width=2in]{example.jpg} 
+    \includegraphics[scale=0.5]{figs/venn.pdf} 
     \caption{Provide a short caption description.}
     \label{fig:number}
  \end{figure}
