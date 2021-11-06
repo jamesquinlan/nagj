@@ -1,6 +1,25 @@
-\section{Introduction}
-Many websites \citep{codesansar2021} provide tools to determine an LU  decomposition of a matrix; however, none of them can decompose \emph{all} matrices. 
-Using code, we developed a GeoGebra applet that can decompose square matrices for those that can be factored and decompose ``nearby" matrices without an LU decomposition using perturbation. In this paper, we first present conditions for a  matrix to have a unique LU decomposition. Several examples are included to illustrate this theorem.  Next, we state and prove special cases for matrices with infinitely many and no LU factorizations.  \\
+\section{General Guidelines}
+
+\noindent Please read these instructions carefully.   The objective of this template is to enable you in an easy way to style your article attractively in a style similar to that of the typeset journal. It should be emphasized, however, that the final appearance of your paper in print and in electronic media may likely vary to some extent from the presentation achieved in this template.
+
+
+% Subsection
+\subsection{Level Headings: Subsections}
+\noindent You will usually want to divide your article into (numbered) sections and subsections (perhaps even subsubsections).  Use to help organize your document as appropriate.
+
+
+% Subsection
+\subsection{Paragraphs}
+\noindent Paragraphs are \textbf{not} indented and a line break is included between paragraphs.  The first paragraph in a section or subsection will automatically  not  have an indentation.  Use \verb!\noindent! as needed.  
+
+
+% Subsection
+\subsection{Hyperlinks / URLs} 
+Include hyperlinks using  URL \url{http://www.google.com}.  
+
+
+
+
 
 
  
@@ -101,11 +120,11 @@ Definitions are if and only if statements.
 
 
  \section{Lists}
- NAGJ uses the \verb|outline| package.  
- 
+ NAGJ uses the \verb|outline| package.   
+  
  % Enumeration
  \subsection{Enumerated List}
- The following code produces an enumerated list.
+ The following code produces an enumerated list.  The enumerated list numbers each list item with Arabic numerals.
  
 % Verbatim Outline
 \begin{verbatim}
@@ -185,12 +204,24 @@ Let  $\{1,2,3\}$ and $\{2,1,3\}$ be two lists of integers.  Then, to check if th
 
 
 
-%: SECTION - Tables and Figures
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 				TABLES & FIGURES
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Tables and Figures}
- 
- 
+
+A \textbf{caption} that briefly describes the material is required for figures and tables.  Any required information, such as photo credits or data source, may be included in captions. Furthermore, as part of the authorization to use that content, providers of this material may need a specific credit line, which might be placed in the caption (or wherever the provider has requested).  
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 				FIGURES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  \subsection{Figures}
-  Figures should be high quality (1200 dpi for line art, 600 dpi for grayscale and 300 dpi for color, at the correct size). Figures should be supplied in one of our preferred file formats: EPS, PS, JPEG, TIFF, or Microsoft Word (DOC or DOCX) files are acceptable for figures that have been drawn in Word. For information relating to other file types, please consult our Submission of electronic artwork document.
+Figures should be high quality (1200 dpi for line art, 600 dpi for grayscale and 300 dpi for color, at the correct size). The preferred method of including graphics in the \textit{North American GeoGebra Journal} is to export to TiKz.  For exposition on TiKz, see \citep{quinlan2013geogebra}.   
+Other acceptable file formats include: EPS, PS, PNG, JPEG, or TIFF.  
   
  \begin{figure}[h!] %  figure placement
     \centering
@@ -200,12 +231,93 @@ Let  $\{1,2,3\}$ and $\{2,1,3\}$ be two lists of integers.  Then, to check if th
  \end{figure}
  
  
- 
- \subsection{Tables}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 				TABLES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Tables}
 We use the \texttt{booktabs} package.  Tables should present new information rather than duplicating what is in the text. Readers should be able to interpret the table without reference to the text. Please supply editable files.
+
+
+\begin{table}[ht!]
+\begin{center}
+\begin{tabular}{lccc} 
+\toprule
+Date & Time  &  Average   & Standard Deviation \\ 
+\midrule
+Jan 1  & 1100   		& 4.7            	& 0.6        \\
+Jan 2  &  2300   	& 16.7                & 2.9       \\
+Jan 3  &  1400  		& 11.4                & 3.5       \\
+Jan 4  & 1130  		& 8.4              	& 2.1        \\
+Jan 5  & 500  		& 5.2         	& 1.9 	\\
+Jan 6  & 1700 		& 7.9             	& 2.2 	\\
+\bottomrule 
+
+\end{tabular} 
+\caption{This is a caption to the table}
+\label{tab:table} 
+\end{center}
+\end{table} % end the table
+
+
 
 
 
 
 \section{Cross Reference}
 Figures, tables, and equations should be labeled (\texttt{label}) then referenced using the \texttt{ref}. 
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 				CITATIONS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Citations}
+Citations follow APA format.  \citet{brewer2001elements} shows an example using \verb!\citet{key}!, whereas to include citations parenthetically as in, \citep{brewer2001elements}, use \verb!\citep{key}!.  You can also include page number of reference such as, \citep[p. 17]{brewer2001elements}, by using options in the cite command, i.e.,  \verb!\citep[p. 17]{key}!.  Multiple researchers \citep{brewer2001elements, article:unitfrac, farin2013practical} can be cited using one cite command; in particular, with keys separated by commas  \verb!\citep{brewer2001elements, unitfrac, farin2013practical}!.
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%				 COMMAND LINE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{GeoGebra Command Line}
+Commands that could be entered at the GeoGebra command prompt should use the \verb!verbatim! environment and can be centered.
+\begin{center}
+\verb! J=(6-(16/3-distance(D,K)),y(C)).!
+\end{center}
+For inline commands such as \texttt{distance(A,B)}, use \verb!\texttt! or \verb!\verb!.   
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 				APPENDIX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Appendix}
+Appendixes, if needed, appear before the acknowledgment.
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 				ACKNOWLEDGMENT
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Acknowledgment}
+The preferred spelling of the word ``acknowledgment" in American English is without an ``e" after the ``g." Use the singular heading even if you have many acknowledgments. Avoid expressions such as ``One of us (S.B.A.) would like to thank ... ." Instead, write ``F. A. Author thanks ... ." In most cases, sponsor and financial support acknowledgments are placed in the unnumbered footnote on the first page, not here.
+
+

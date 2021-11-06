@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  25 OCT 2021 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  6 NOV 2021 19:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1027,26 +1027,26 @@ LaTeX Info: Redefining \nameref on input line 25.
 
 
 LaTeX Font Warning: Font shape `OT1/ptm//n' undefined
-(Font)              using `OT1/ptm/m/n' instead on input line 57.
+(Font)              using `OT1/ptm/m/n' instead on input line 48.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 57
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 48
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 57
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 48
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
@@ -1058,9 +1058,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
  []
 
 ) (./body.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
- []
+LaTeX Font Warning: Font shape `OT1/ptm/m/scit' undefined
+(Font)              using `OT1/ptm/m/it' instead on input line 7.
+
+
+LaTeX Font Warning: Font shape `OT1/ptm/m/scit' undefined
+(Font)              using `OT1/ptm/m/it' instead on input line 12.
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+3.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+
+LaTeX Font Warning: Font shape `OT1/ptm/m/scit' undefined
+(Font)              using `OT1/ptm/m/it' instead on input line 17.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1068,67 +1081,89 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 6
-0.
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 
 LaTeX Font Warning: Font shape `OT1/ptm/m/scit' undefined
-(Font)              using `OT1/ptm/m/it' instead on input line 107.
-
-
-LaTeX Font Warning: Font shape `OT1/ptm/m/scit' undefined
-(Font)              using `OT1/ptm/m/it' instead on input line 129.
+(Font)              using `OT1/ptm/m/it' instead on input line 126.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-43.
 
+LaTeX Font Warning: Font shape `OT1/ptm/m/scit' undefined
+(Font)              using `OT1/ptm/m/it' instead on input line 148.
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+62.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <12> not available
-(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 164.
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 183.
 LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 1
-64.
+83.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omspcr.fd
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 164.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 183.
 
-Overfull \hbox (351.50278pt too wide) in paragraph at lines 176--176
+Overfull \hbox (351.50278pt too wide) in paragraph at lines 195--195
 []\OT1/pcr/m/n/12 Let  $\{1,2,3\}$ and $\{2,1,3\}$ be two lists of integers.  T
 hen, to check if the two lists are equal we would have,[] 
  []
 
 
 LaTeX Font Warning: Font shape `OT1/ptm/m/scit' undefined
-(Font)              using `OT1/ptm/m/it' instead on input line 192.
+(Font)              using `OT1/ptm/m/it' instead on input line 221.
 
-<figs/venn.pdf, id=92, 574.41132pt x 404.89148pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+<figs/venn.pdf, id=107, 574.41132pt x 404.89148pt>
 File: figs/venn.pdf Graphic file (type pdf)
 <use figs/venn.pdf>
-Package pdftex.def Info: figs/venn.pdf  used on input line 197.
+Package pdftex.def Info: figs/venn.pdf  used on input line 226.
 (pdftex.def)             Requested size: 287.20496pt x 202.44524pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Font Warning: Font shape `OT1/ptm/m/scit' undefined
-(Font)              using `OT1/ptm/m/it' instead on input line 204.
+(Font)              using `OT1/ptm/m/it' instead on input line 236.
 
-) (./main.bbl
+
+Package natbib Warning: Citation `brewer2001elements' on page 4 undefined on in
+put line 277.
+
+
+Package natbib Warning: Citation `brewer2001elements' on page 4 undefined on in
+put line 277.
+
+
+Package natbib Warning: Citation `brewer2001elements' on page 4 undefined on in
+put line 277.
+
+
+Package natbib Warning: Citation `brewer2001elements' on page 4 undefined on in
+put line 277.
+
+
+Package natbib Warning: Citation `article:unitfrac' on page 4 undefined on inpu
+t line 277.
+
+
+Package natbib Warning: Citation `farin2013practical' on page 4 undefined on in
+put line 277.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./figs/venn.pdf>]) (./main.bbl
 Underfull \hbox (badness 6641) in paragraph at lines 4--8
 []\OT1/ptm/m/n/12 Codesansar (2021).  On-line LU De-com-po-si-tion (Fac-tor-iza
 -tion) Cal-cu-la-tor.  \OT1/ptm/m/it/12 Retieved
@@ -1140,78 +1175,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 ecomposition-factorization-
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3])
-(./bio.tex
-<figs/author1.png, id=99, 1003.75pt x 1003.75pt>
+) (./bio.tex
+<figs/author1.png, id=124, 1003.75pt x 1003.75pt>
 File: figs/author1.png Graphic file (type png)
 <use figs/author1.png>
 Package pdftex.def Info: figs/author1.png  used on input line 9.
 (pdftex.def)             Requested size: 72.55157pt x 72.55176pt.
-<figs/author2.png, id=101, 1003.75pt x 1003.75pt>
+<figs/author2.png, id=126, 1003.75pt x 1003.75pt>
 File: figs/author2.png Graphic file (type png)
 <use figs/author2.png>
 Package pdftex.def Info: figs/author2.png  used on input line 20.
 (pdftex.def)             Requested size: 72.55157pt x 72.55176pt.
 )
-Overfull \hbox (2.93765pt too wide) in paragraph at lines 1--86
+Overfull \hbox (2.93765pt too wide) in paragraph at lines 1--77
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--86
+Underfull \hbox (badness 10000) in paragraph at lines 1--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--86
+Underfull \hbox (badness 10000) in paragraph at lines 1--77
 
  []
 
 
-Overfull \hbox (2.93765pt too wide) in paragraph at lines 1--86
+Overfull \hbox (2.93765pt too wide) in paragraph at lines 1--77
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--86
+Underfull \hbox (badness 10000) in paragraph at lines 1--77
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <./figs/venn.pdf> <./figs/author1.png> <./figs/author2.png>] (./app.tex
+ [5 <./figs/author1.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./figs/author2.png>] (./app.tex
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 1
 1.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 ))
+
+Package natbib Warning: There were undefined citations.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
+ [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
 
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 31C09DFE97147F96B73799E97D313D1D;592.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 151668A6778BF0C99CC2049D7AA435BE;694
+(rerunfilecheck)             After:  977340B5609897ABE0EBC5FDBCA5F813;904.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 32432 strings out of 480608
- 740785 string characters out of 5903631
- 1375741 words of memory out of 5000000
- 47617 multiletter control sequences out of 15000+600000
+ 32445 strings out of 480608
+ 740939 string characters out of 5903631
+ 1374741 words of memory out of 5000000
+ 47622 multiletter control sequences out of 15000+600000
  564987 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,13n,100p,751b,1427s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1229,10 +1276,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on main.pdf (5 pages, 196027 bytes).
+Output written on main.pdf (7 pages, 204450 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
- 62 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 234 PDF objects out of 1000 (max. 8388607)
+ 203 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
 
