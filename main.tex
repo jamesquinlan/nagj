@@ -1,8 +1,23 @@
+%TEX
+% Sun Nov 07 12:04:37 EST 2021
+% ++++++++++++++++++++++++++++++++++++++++++++++++++
+% North American GeoGebra Journal LaTeX template file.  
+%            :  Template Control File  
+%            :  
+%            :  of latex environments. To generate this SD template file,
+%            :  FILE.tex, use the command:  ltx_template -t FILE, or use
+%            :  ltx_template -T FILE (to include all TE examples).
+%            :
+%            : Quinlan, J. 
+% ++++++++++++++++++++++++++++++++++++++++++++++++++
+% FOR ASSISTANCE TRY: 
+%		: http://en.wikibooks.org/wiki/LaTeX/
+%		: https://www.ctan.org/
+%              
+
 \def\pagenum{1}
 \def\vol{1}
 \def\issue{1}
-\def\thetitle{\uppercase{Title of the work}} 
-
 
 % ----------------------------- %
 \input{configs}
@@ -14,16 +29,15 @@
 \renewcommand\Authands{ and }
 
 
-
+% Edit 33 - 37
+\def\thetitle{\uppercase{Title of the work}} 
 \def\authorOne{\authorfont{John Jones}}
 \def\authorTwo{\authorfont{Steve Smith}}
 \def\institutionOne{\subauthorfont{Department of Mathematics, Great State University}}
 \def\institutionTwo{\subauthorfont{School of Typesetting and Print, \LaTeX\ University}}
 
 % ----------------------------- %
-%
 \begin{document}
-%
 % ----------------------------- %
 
 \interfootnotelinepenalty=100000
@@ -32,7 +46,6 @@
 % ----------------------------- %
 %  Header: Title, author
 % ----------------------------- %
-
 \title{\TitleFont{\thetitle}}
 \author[1]{\authorOne}
 \author[2]{\authorTwo}
@@ -50,9 +63,8 @@
 
 
 % ----------------------------- %
-% abstract
+% Abstract
 % ----------------------------- %
-
 \input{abstract}
 \thispagestyle{fancy}
 
