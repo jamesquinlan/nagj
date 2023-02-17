@@ -906,7 +906,7 @@ FUNCTION {calc.label}
   if$
   ", "                                                  % these three lines are
   *                                                     % for apalike, which
-  year field.or.null purify$ #-1 #4 substring$          % uses all four digits
+  year field.or.null #-1 #4 substring$          % uses all four digits
   *
   'label :=
 }
