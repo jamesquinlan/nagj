@@ -3,40 +3,52 @@
 % ----------------------------- %
 \section{General Guidelines}
 
-\noindent Please read these instructions carefully.   The objective of this template is to enable you in an easy way to style your article attractively in a style similar to that of the typeset journal. It should be emphasized, however, that the final appearance of your paper in print and in electronic media may likely vary to some extent from the presentation achieved in this template.
+\noindent 
+Please read these instructions carefully.   
+The objective of this template is to enable you in an easy way to style your article attractively in a style similar to that of the typeset journal. 
+It should be emphasized, however, that the final appearance of your paper in print and electronic media may vary to some extent from the presentation achieved in this template.
 
 
 % ----------------------------- %
 % Heading Levels
 % ----------------------------- %
 \subsection{Level Headings: Subsections}
-\noindent You will usually want to divide your article into (numbered) sections and subsections (perhaps even subsubsections).  Use to help organize your document as appropriate.
+\noindent 
+You will usually want to divide your article into (numbered) sections and subsections (perhaps even subsubsections).  
+You can use it to help organize your document as appropriate.
 
 
 % ----------------------------- %
 % Paragraphs
 % ----------------------------- %
 \subsection{Paragraphs}
-\noindent Paragraphs are \textbf{not} indented and a line break is included between paragraphs.  The first paragraph in a section or subsection will automatically  not  have an indentation.  Use \verb!\noindent! as needed.  
+\noindent 
+Paragraphs are \textbf{not} indented, and a line break is included between paragraphs.  
+The first paragraph in a section or subsection will automatically  not  have an indentation.  
+Use \verb!\noindent! as needed.  
 
 
 % ----------------------------- %
 % Hyperlinks
 % ----------------------------- %
 \subsection{Hyperlinks / URLs} 
-Include hyperlinks using  URL \url{http://www.google.com}.  
+Include hyperlinks using URL \url{http://www.google.com}.  
 
 
 % ----------------------------- %
 % Mathematics
 % ----------------------------- %
 \section{Mathematics}\label{sec:lu}
-Here is some mathematics.  For $A \in M_n$, the factorization $A = LU$, where $L$ is unit lower triangular and $U$ is upper triangular,  is called the \textit{LU decomposition}, or \textit{LU factorization}.  We can use such a factorization, when it exists, to solve the system $A {\bf x} = {\bf b}$ by first solving for the vector $\bf{y}$ in $L {\bf y} = {\bf b}$ 
-and then solving 
+Here is some mathematics.  
+For $A \in M_n$, the factorization $A = LU$, where $L$ is unit lower triangular and $U$ is upper triangular, is called the \textit{LU decomposition}, or \textit{LU factorization}.  
+We can use such a factorization, when it exists, to solve the system $A {\bf x} = {\bf b}$ by first solving for the vector $\bf{y}$ in $L {\bf y} = {\bf b}$ and then solving 
 $
 U {\bf x} = {\bf y}
 $. 
-However, not every $n \times n$ matrix $A$ has an LU decomposition.  The following theorem provides conditions for the existence and uniqueness of an LU decomposition of a $n \times n$ matrix.  A proof can be found in \citet[p. 160]{johnson1985matrix}.  An equation is given by \cite{strang1993introduction}, 
+However, not every $n \times n$ matrix $A$ has an LU decomposition.  
+The following theorem provides conditions for the existence and uniqueness of an LU decomposition of a $n \times n$ matrix.  
+A proof can be found in \citet[p. 160]{johnson1985matrix}.  
+An equation is given by \cite{strang1993introduction}, 
 
 \begin{equation}\label{eqn:quad}
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
@@ -79,14 +91,13 @@ has all non-zero principle minors, $A_1, A_2$ and $A_3$.  Therefore,  there is a
 % ----------------------------- %
 \section{Definition, Theorem, Corollary}
 
-
 \begin{definition}
-Definitions are if and only if statements.  
+ Definitions are if and only if statements.  
 \end{definition}
 
 \begin{verbatim}
 \begin{definition}
-Definitions are if and only if statements.  
+ Definitions are if and only if statements.  
 \end{definition}
 \end{verbatim}
 
@@ -98,18 +109,17 @@ Definitions are if and only if statements.
 %: proof
 \begin{proof} We will prove only for the the case when $A \in M_3$. \\
  \begin{align} 
-&dm + r = e  \Rightarrow r = e-dm \label{eqn:1}\\
-&dn + rp = f \Rightarrow p=\frac{f-dn}{r} \label{eqn:2}\\
-&gm + s = h \Rightarrow s = h - gm \label{eqn:3}\\
-&gn + sp + t = i \Rightarrow t  = i-sp-gn \label{eqn:4}
-\end{align}
- 
+	&dm + r = e  \Rightarrow r = e-dm \label{eqn:1}\\
+	&dn + rp = f \Rightarrow p=\frac{f-dn}{r} \label{eqn:2}\\
+	&gm + s = h \Rightarrow s = h - gm \label{eqn:3}\\
+	&gn + sp + t = i \Rightarrow t  = i-sp-gn \label{eqn:4}
+ \end{align}
 \end{proof} % end proof
  
 
 % Corollary
 \begin{corollary}
-If $x$, then $y$.
+ If $x$, then $y$.
 \end{corollary}
 
 
@@ -122,20 +132,22 @@ Here is an example of an example.
 
 
 \begin{example}
-Let  $\{1,2,3\}$ and $\{2,1,3\}$ be two lists of integers.  Then, to check if the two lists are equal we would have,   
-	\begin{center}
-		\texttt{ \{1,2,3\} == \{2,1,3\} }.
-	\end{center}\label{ex:equallists}
+Let  $\{1,2,3\}$ and $\{2,1,3\}$ be two lists of integers.  
+Then, to check if the two lists are equal, we would have,   
+    \begin{center}
+        \texttt{ \{1,2,3\} == \{2,1,3\} }.
+    \end{center}\label{ex:equallists}
 \end{example}
 
 
 \begin{verbatim}
-\begin{example}
-Let  $\{1,2,3\}$ and $\{2,1,3\}$ be two lists of integers.  Then, to check if the two lists are equal we would have,   
-	\begin{center}
-		\texttt{ \{1,2,3\} == \{2,1,3\} }.
-	\end{center}\label{ex:equallists}
-\end{example}
+    \begin{example}
+     Let  $\{1,2,3\}$ and $\{2,1,3\}$ be two lists of integers.  
+	Then, to check if the two lists are equal, we would have,   
+	    \begin{center}
+                \texttt{ \{1,2,3\} == \{2,1,3\} }.
+	    \end{center}\label{ex:equallists}
+    \end{example}
 \end{verbatim}
 
 
@@ -176,7 +188,7 @@ Let  $\{1,2,3\}$ and $\{2,1,3\}$ be two lists of integers.  Then, to check if th
 \begin{outline}
      \1 First item
           \2 Second level item
-               \3 Third level sub-item
+               \3 Third-level sub-item
 \end{outline}
  \end{verbatim}
  
@@ -194,15 +206,19 @@ Let  $\{1,2,3\}$ and $\{2,1,3\}$ be two lists of integers.  Then, to check if th
 % ----------------------------- %
 \section{Tables and Figures}
 
-A \textbf{caption} that briefly describes the material is required for figures and tables.  Any required information, such as photo credits or data source, may be included in captions. Furthermore, as part of the authorization to use that content, providers of this material may need a specific credit line, which might be placed in the caption (or wherever the provider has requested).  
+For figures and tables, a \textbf{caption} that briefly describes the material is required.  
+Any required information, such as photo credits or data sources, may be included in captions. 
+Furthermore, as part of the authorization to use that content, providers of this material may need a specific credit line, which might be placed in the caption (or wherever the provider has requested).  
 
 
 % ----------------------------- %
 % Figures
 % ----------------------------- %
- \subsection{Figures}
-Figures should be high quality (1200 dpi for line art, 600 dpi for grayscale and 300 dpi for color, at the correct size). The preferred method of including graphics in the \textit{North American GeoGebra Journal} is to export to TiKz.  For exposition on TiKz, see \citep{quinlan2013geogebra}.   
-Other acceptable file formats include: EPS, PS, PNG, JPEG, or TIFF.  
+\subsection{Figures}
+Figures should be high quality (1200 dpi for line art, 600 dpi for grayscale, and 300 dpi for color, at the correct size). 
+The preferred method of including graphics in the \textit{North American GeoGebra Journal} is to export to TiKz.  
+For exposition on TiKz, see \citep{quinlan2013geogebra}.   
+Other acceptable file formats include EPS, PS, PNG, JPEG, or TIFF.  
   
  \begin{figure}[h!] %  figure placement
     \centering
@@ -216,7 +232,9 @@ Other acceptable file formats include: EPS, PS, PNG, JPEG, or TIFF.
 % Tables
 % ----------------------------- %
 \subsection{Tables}
-We use the \texttt{booktabs} package.  Tables should present new information rather than duplicating what is in the text. Readers should be able to interpret the table without reference to the text. Please supply editable files.
+We use the \texttt{booktabs} package.  
+Tables should present new information rather than duplicating what is in the text. 
+Readers should be able to interpret the table without reference to the text. Please supply editable files.
 
 
 \begin{table}[ht!]
@@ -244,14 +262,16 @@ We use the \texttt{booktabs} package.  Tables should present new information rat
 % Cross Referencing
 % ----------------------------- %
 \section{Cross Reference}
-Figures, tables, and equations should be labeled (\texttt{label}) then referenced using the \texttt{ref}. 
+Figures, tables, and equations should be labeled (\texttt{label}) and then referenced using the \texttt{ref}. 
 
 
 % ----------------------------- %
 % Citations
 % ----------------------------- %
 \section{Citations}
-Citations follow APA format.  \citet{johnson1985matrix} shows an example using \verb!\citet{key}!, whereas to include citations parenthetically as in, \citep{johnson1985matrix}, use \verb!\citep{key}!.  You can also include page number of reference such as, \citep[p. 17]{johnson1985matrix}, by using options in the cite command, i.e.,  \verb!\citep[p. 17]{key}!.  Multiple researchers \citep{johnson1985matrix,strang1993introduction} can be cited using one cite command; in particular, with keys separated by commas  \verb!\citep{johnson1985matrix,strang1993introduction}!.
+Citations follow APA format.  \citet{johnson1985matrix} shows an example using \verb!\citet{key}!, whereas to include citations parenthetically as in, \citep{johnson1985matrix}, use \verb!\citep{key}!.  
+You can also include the page number of reference, such as, \citep[p. 17]{johnson1985matrix}, by using options in the cite command, i.e.,  \verb!\citep[p. 17]{key}!.  
+Multiple researchers \citep{johnson1985matrix,strang1993introduction} can be cited using one cite command; in particular, with keys separated by commas  \verb!\citep{johnson1985matrix,strang1993introduction}!.
 
 
 
@@ -261,7 +281,7 @@ Citations follow APA format.  \citet{johnson1985matrix} shows an example using \
 \section{GeoGebra Command Line}
 Commands that could be entered at the GeoGebra command prompt should use the \verb!verbatim! environment and can be centered.
 \begin{center}
-\verb! J=(6-(16/3-distance(D,K)),y(C)).!
+    \verb! J=(6-(16/3-distance(D,K)),y(C)).!
 \end{center}
 For inline commands such as \texttt{distance(A,B)}, use \verb!\texttt! or \verb!\verb!.   
 
@@ -278,6 +298,9 @@ Appendixes, if needed, appear before the acknowledgment.
 % Acknowledgment
 % ----------------------------- %
 \section*{Acknowledgment}
-The preferred spelling of the word ``acknowledgment" in American English is without an ``e" after the ``g." Use the singular heading even if you have many acknowledgments. Avoid expressions such as ``One of us (S.B.A.) would like to thank ... ." Instead, write ``F. A. Author thanks ... ." In most cases, sponsor and financial support acknowledgments are placed in the unnumbered footnote on the first page, not here.
+The preferred spelling of the word ``acknowledgment" in American English is without an ``e" after the ``g." 
+You can use the singular heading even if you have many acknowledgments. 
+Avoid expressions such as ``One of us (S.B.A.) would like to thank ... ." Instead, write ``F. A. Author thanks ... ." 
+Usually, sponsor and financial support acknowledgments are placed in the unnumbered footnote on the first page, not here.
 
-
+% /EOF
