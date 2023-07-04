@@ -11,9 +11,10 @@ See [main.pdf](main.pdf)
 
 ### Document Structure
 
+```
 main.tex
-
---- abstract.tex
---- body.tex
---- refs.bib}
---- bio.tex
+│   abstract.tex
+│   body.tex
+|   refs.bib
+|   bio.tex 
+```
