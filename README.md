@@ -15,6 +15,6 @@ See [main.pdf](main.pdf)
 main.tex
 │   abstract.tex
 │   body.tex
-|   refs.bib
-|   bio.tex 
+│   refs.bib
+│   bio.tex 
 ```
