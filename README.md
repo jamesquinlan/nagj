@@ -11,7 +11,7 @@ See [main.pdf](main.pdf)
 
 ### Document Structure
 
-```
+```zsh
 main.tex
 │   abstract.tex
 │   body.tex
